@@ -1,8 +1,8 @@
 body{
-    background-color: #e6ffe6;
+    background-color: #fffbe6;
   }
   .bg1st{
-      background: linear-gradient(130deg, #e6ffe6, #ccff99);
+      background: linear-gradient(130deg, #ffec80, #fffbe6);
       opacity: 0.9;
   }
   .conpart{
@@ -18,7 +18,7 @@ body{
     padding: 10px;
     background: none;
     outline: none;
-    background:#e6ffe6;
+    background:#fff4b3;
     font-weight: 500;
     transition: .5s;
   }
@@ -30,7 +30,7 @@ body{
     color: #061306;
   }
   .con6{
-    background-color: #061306;
+    background-color: #1a1600;
   }
   .eye{
     color: #0d1a00;
@@ -49,7 +49,7 @@ body{
   @media  (max-width:700px){
       .con1{
          color: #fff;
-         background: linear-gradient(130deg, #009900, #00e600); 
+         background: linear-gradient(130deg, #998200, #fff099); 
       }
       .nav1{
           text-decoration: none;
@@ -63,12 +63,10 @@ body{
           color: gray;
   }
   .logo{
-      color: #003300;;
-      font-size: 24px;
-      font-weight: 900;
-      font-style: italic;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      text-shadow: #4dff4d 1px 1px 8px;
+     background-image: url('img/bold.jfif');
+     height: 200;
+     width: 200;
+     border-radius: 25px;
      }
      .mna{
        display: none;
@@ -77,7 +75,7 @@ body{
       display: none;
     }
      .bg1a{
-      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bg1.png');
+      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       padding: 20px;
@@ -96,13 +94,13 @@ body{
   
   @keyframes animate{
     0%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/bg1.png');
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/boldwoman.jfif');
       background-repeat: no-repeat;
       background-size: cover;
       transition: 2s;
     }
     20%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/green.png');
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       transition: 2s;
@@ -153,7 +151,7 @@ body{
       margin-left: 2px;
       margin-right: 2px;
       text-align: center;
-      background-color: #0d1a00; 
+      background-color: #665700; 
   } 
   .row1b{
     color: #061306;
@@ -174,7 +172,7 @@ body{
     color: gray;
   }
   .con3{
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000,  #1a1600);
       padding: 10px;
       font-weight: 600;
       color: #fff;
@@ -183,13 +181,13 @@ body{
       text-align: center;
       font-weight: 700;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #4dff4d 1px 1px 8px;
+      text-shadow: #ffd700 1px 1px 8px;
       font-size: small;
       margin-top: 10px;
       color: white;
   }
   .card1{
-      background-color: #e6ffe6;
+      background-color: #fffbe6;
       border-radius: 15px;
       padding: 20px;
       color:#000000;
@@ -217,19 +215,19 @@ body{
       padding: 50px;
       border-top-left-radius: 200px;
       border-bottom-left-radius: 200px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000,  #332b00);
     }
     .card3b{
       padding: 50px;
       border-top-right-radius: 200px;
       border-bottom-right-radius: 200px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #332b00, #000000);
     }
     .h3b{
       text-align: center;
       font-weight: 700;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #003300 1px 1px 8px;
+      text-shadow: #ffd700 1px 1px 8px;
       font-size: small;
   }
   .mn{
@@ -240,15 +238,15 @@ body{
       padding: 7px;
       background-color: #e6ffe6;
       border-radius: 50%;
-      color:#0d1a00;
+      color:#1a1600;
       font-size: 12px;
-      text-shadow:#00e600 1px 1px 8px;
+      text-shadow:#ffd700 1px 1px 8px;
   }
   .h4b{
       font-weight: 600;
       color: #fff;
       text-align: center;
-      text-shadow:#00e600 1px 1px 8px;
+      text-shadow:#ffd700 1px 1px 8px;
       font-size: x-small;
   }
   .p4{
@@ -326,7 +324,7 @@ body{
       font-weight: 600;
       border-radius: 25px;
       padding: 9px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000, #1a1600);
       font-size: x-small;
     }
     .bigc{
@@ -387,7 +385,7 @@ body{
       font-size: small;
       color: #fff;
       padding: 9px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000, #1a1600);
       border-radius: 25px;
       padding: 10px;
       font-weight: 600;
@@ -423,7 +421,7 @@ body{
       font-weight: 600;
       border-radius: 25px;
       padding: 9px;
-      background: linear-gradient(130deg, #ccff99, #4dff4d);
+      background: linear-gradient(130deg, #fffbe6, #ffd700);
       font-size: x-small;
    }
    .h4f{
@@ -445,9 +443,9 @@ body{
     font-size: xx-small;
    }
    .h3e{
-    color: #0d1a00;
+    color:  #1a1600;
     font-weight: 700;
-    text-shadow: #4dff4d 1px 1px 8px;
+    text-shadow: #ffd700 1px 1px 8px;
     font-size: small;
    }
    .pe{
@@ -458,8 +456,8 @@ body{
    .stf{
     padding: 10px;
     border-radius: 50%;
-    color: #0d1a00;
-    text-shadow: #ccff99 1px 1px 8px;
+    color:  #1a1600;
+    text-shadow: #ffe033 1px 1px 8px;
     background-color: #fff;
     font-size: 20px;
    }
@@ -700,8 +698,8 @@ body{
     font-size: 20px;
     padding: 5px;
     color: #0d1a00;
-    text-shadow:#4dff4d 1px 1px 8px;
-    background-color: #e6ffe6;
+    text-shadow:#665700 1px 1px 8px;
+    background-color: #fffbe6;
     border-radius: 50px;
   }
   .rh4{
@@ -1222,7 +1220,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .questionbg{
-    background-color: #061306;
+    background-color: #1a1600;
     padding: 10px;
     margin-top: 50px;
   }
@@ -1298,7 +1296,7 @@ body{
   @media  (min-width:600px){
       .con1{
          color: #fff;
-         background: linear-gradient(130deg, #009900, #00e600);
+         background: linear-gradient(130deg, #998200, #fff099); 
       }
       .nav1{
           text-decoration: none;
@@ -1311,14 +1309,7 @@ body{
       .nav1:hover{
           color: gray;
       }
-     .logo{
-      color: #003300;
-      font-size: 28px;
-      font-weight: 900;
-      font-style: italic;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      text-shadow: #4dff4d 1px 1px 8px;
-     }
+      
      .nav-link{
       color: #061306;
       font-weight: 700;
@@ -1333,7 +1324,7 @@ body{
       text-decoration: none;
       color: white;
       transition: 0.4s;
-      background-color: #003300;
+      background-color: #665700;
       padding: 15px;
       font-size: x-small;
       border-radius: 25px;
@@ -1342,7 +1333,7 @@ body{
      .mnbb{
       font-weight: 700;
       text-decoration: none;
-      color: #003300;
+      color: #665700;
       font-size: x-small;
       transition: 0.4s;
       background-color: #e6ffe6;
@@ -1356,7 +1347,7 @@ body{
       color: gray;
      }
      .bg1a{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/bg1.png');
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       height: 80vh;
@@ -1374,13 +1365,13 @@ body{
   }
   @keyframes animate{
     0%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/bg1.png');
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/boldwoman.jfif');
       background-repeat: no-repeat;
       background-size: cover;
       transition: 2s;
     }
     20%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/green.png');
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       transition: 2s;
@@ -1424,7 +1415,7 @@ body{
   .row1a{display: none;}
   .row1b{display: none;}
   .con3{
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000,  #1a1600);
       padding: 50px;
       color: #fff;
   }
@@ -1434,13 +1425,13 @@ body{
       text-align: center;
       font-weight: 700;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #4dff4d 1px 1px 8px;
+      text-shadow: #ffd700 1px 1px 8px;
       font-size: medium;
       color: white;
   }
   
   .card1{
-      background-color: #e6ffe6;
+      background-color: #fffbe6;
       border-radius: 15px;
       padding: 20px;
       color:#000000;
@@ -1469,13 +1460,13 @@ body{
       padding: 50px;
       border-top-left-radius: 200px;
       border-bottom-left-radius: 200px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000,  #332b00);
     }
     .card3b{
       padding: 50px;
       border-top-right-radius: 200px;
       border-bottom-right-radius: 200px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #332b00, #000000);
     }
     .svg1{
       display: none;
@@ -1484,22 +1475,22 @@ body{
       text-align: center;
       font-weight: 700;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #003300 1px 1px 8px;
+      text-shadow: #ffd700 1px 1px 8px;
       font-size: medium;
   }
   .ti{
       padding: 7px;
       background-color: #e6ffe6;
       border-radius: 50%;
-      color:#0d1a00;
+      color:#1a1600;
       font-size: 20px;
-      text-shadow:#00e600 1px 1px 8px;
+      text-shadow:#ffd700 1px 1px 8px;
   }
   .h4b{
       font-weight: 600;
       color: #fff;
       text-align: center;
-      text-shadow:#00e600 1px 1px 8px;
+      text-shadow:#ffd700 1px 1px 8px;
       font-size: smaller;
   }
   .p4{
@@ -1533,7 +1524,7 @@ body{
       font-weight: 600;
       border-radius: 25px;
       padding: 9px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000, #1a1600);
     }
     .bigc{
       margin-top: 100px;
@@ -1592,7 +1583,7 @@ body{
       font-size: smaller;
       color: #fff;
       padding: 9px;
-      background: linear-gradient(130deg, #000000, #0d1a00);
+      background: linear-gradient(130deg, #000000, #1a1600);
       border-radius: 25px;
       padding: 10px;
       font-weight: 600;
@@ -1628,7 +1619,7 @@ body{
       font-weight: 600;
       border-radius: 25px;
       padding: 9px;
-      background: linear-gradient(130deg, #ccff99, #4dff4d);
+      background: linear-gradient(130deg, #fffbe6,#ffd700 );
    }
    .h4f{
     color: #fff;
@@ -1649,9 +1640,9 @@ body{
     font-size: small;
    }
    .h3e{
-    color: #0d1a00;
+    color:  #1a1600;
     font-weight: 700;
-    text-shadow: #4dff4d 1px 1px 8px;
+    text-shadow: #ffd700 1px 1px 8px;
     font-size: medium;
    }
    .pe{
@@ -1662,8 +1653,8 @@ body{
    .stf{
     padding: 15px;
     border-radius: 50%;
-    color: #0d1a00;
-    text-shadow: #ccff99 1px 1px 8px;
+    color:  #1a1600;
+    text-shadow: #ffe033 1px 1px 8px;
     background-color: #fff;
     font-size: 30px;
    }
@@ -1913,8 +1904,8 @@ body{
     font-size: 30px;
     padding: 5px;
     color: #0d1a00;
-    text-shadow:#4dff4d 1px 1px 8px;
-    background-color: #e6ffe6;
+    text-shadow:#665700 1px 1px 8px;
+    background-color: #fffbe6;
     border-radius: 50px;
   }
   .rh4{
@@ -2397,7 +2388,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .questionbg{
-    background-color: #061306;
+    background-color: #1a1600;
     padding: 30px;
     margin-top: 50px;
   }
